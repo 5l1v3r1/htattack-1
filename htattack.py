@@ -47,7 +47,6 @@ def main():
         		sys.exit(1)
  
 	while 1:
-
 		conn, client_addr = s.accept()
 		thread.start_new_thread(server_thread, (conn, client_addr))
 
