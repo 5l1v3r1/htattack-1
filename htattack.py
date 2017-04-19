@@ -23,8 +23,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-u', '--url', dest='url', help='Url del payload (Ej. http://192.168.1.1/shell.exe)', metavar='PAYLOAD')
 parser.add_argument('-p', '--port', dest='lport', help='Puerto (Default: 80)', metavar='PUERTO', default=80)
 
-host = ''
-
 def main():
 
 	if not len(sys.argv[1:]):
